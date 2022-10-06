@@ -424,11 +424,11 @@ with blocks as demo:
             token: gr.update(visible=False),
             canvas_width: gr.update(visible=False),
             canvas_height: gr.update(visible=False),
-            selection_size: gr.update(visible=False),
-            setup_button: gr.update(visible=False),
+            #selection_size: gr.update(visible=False),
+            #setup_button: gr.update(visible=False),
             frame: gr.update(visible=True),
             upload_button: gr.update(value="Upload Image"),
-            model_selection: gr.update(visible=False),
+            #model_selection: gr.update(visible=False),
         }
 
     setup_button.click(
